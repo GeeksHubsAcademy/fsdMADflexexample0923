@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carretera{
+    display: flex;
+    flex-direction: column;
+
+    height: 10em;
+    width: 100vw;
+    background-color: lightslategray;
+}
+
+#carrilSuperior {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 50%;
+    width: auto;
+
+    border-bottom-style: dashed;
+    border-bottom-color: white;
+    border-bottom-width: 0.3em;
+}
+
+#carrilInferior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50;
+    width: auto;
+}
+
+.coche {
+    height:3em;
+    width: 6em;
+    background-color: green;
+}
+
+.coche:hover {
+    transform: translate(3em, 1em);
+    transition: 1s;
+}
